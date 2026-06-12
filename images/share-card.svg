@@ -47,9 +47,8 @@
   </g>
 
   <g transform="translate(128 500)">
-    <rect x="0" y="0" width="322" height="54" rx="27" fill="#fffdfb" opacity="0.78"/>
-    <circle cx="38" cy="27" r="18" fill="url(#lipstick)"/>
-    <text x="70" y="36" fill="#3d0f16" font-family="Courier New, monospace" font-size="22" font-weight="700" letter-spacing="2">ALLISON · CAMILLE · CORINNE</text>
+    <rect x="0" y="0" width="455" height="54" rx="27" fill="#fffdfb" opacity="0.78"/>
+    <text x="32" y="36" fill="#3d0f16" font-family="Courier New, monospace" font-size="22" font-weight="700" letter-spacing="2">ALLISON · CAMILLE · CORINNE</text>
   </g>
 
   <g transform="translate(905 76) rotate(17)">
