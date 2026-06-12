@@ -16,7 +16,7 @@
       <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#3d0f16" flood-opacity="0.22"/>
     </filter>
     <clipPath id="photoClip">
-      <rect x="0" y="0" width="170" height="150" rx="12"/>
+      <rect x="0" y="0" width="222" height="196" rx="12"/>
     </clipPath>
   </defs>
 
@@ -38,11 +38,11 @@
       <circle cx="50" cy="158" r="22" fill="#fffdfb" opacity="0.85"/>
       <circle cx="168" cy="158" r="22" fill="#c8102e" opacity="0.85"/>
     </g>
-    <g transform="translate(124 150) rotate(8)">
-      <rect x="-12" y="-12" width="194" height="194" rx="18" fill="#fffdfb"/>
-      <image href="2024-10-31-a.jpg" x="0" y="0" width="170" height="150" preserveAspectRatio="xMidYMid slice" clip-path="url(#photoClip)"/>
-      <rect x="0" y="0" width="170" height="150" rx="12" fill="#3d0f16" opacity="0.05"/>
-      <rect x="22" y="164" width="126" height="10" rx="5" fill="#c8102e" opacity="0.2"/>
+    <g transform="translate(76 118) rotate(7)">
+      <rect x="-14" y="-14" width="250" height="244" rx="20" fill="#fffdfb"/>
+      <image href="2024-10-31-a.jpg" x="0" y="0" width="222" height="196" preserveAspectRatio="xMidYMid slice" clip-path="url(#photoClip)"/>
+      <rect x="0" y="0" width="222" height="196" rx="12" fill="#3d0f16" opacity="0.05"/>
+      <rect x="42" y="212" width="138" height="10" rx="5" fill="#c8102e" opacity="0.2"/>
     </g>
     <rect x="42" y="318" width="185" height="16" rx="8" fill="#c8102e" opacity="0.22"/>
     <rect x="42" y="350" width="240" height="12" rx="6" fill="#3d0f16" opacity="0.16"/>
@@ -58,12 +58,6 @@
   <g transform="translate(150 492)">
     <rect x="0" y="0" width="455" height="54" rx="27" fill="#fffdfb" opacity="0.78"/>
     <text x="32" y="36" fill="#3d0f16" font-family="Courier New, monospace" font-size="22" font-weight="700" letter-spacing="2">ALLISON · CAMILLE · CORINNE</text>
-  </g>
-
-  <g transform="translate(905 76) rotate(17)">
-    <rect x="0" y="52" width="72" height="170" rx="18" fill="#3d0f16"/>
-    <rect x="12" y="0" width="48" height="68" rx="12" fill="url(#lipstick)"/>
-    <rect x="10" y="62" width="52" height="28" rx="6" fill="#a87c3f"/>
   </g>
 
   <g transform="translate(882 430) rotate(-10)" fill="#c8102e" opacity="0.92">
