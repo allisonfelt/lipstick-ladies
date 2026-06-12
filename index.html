@@ -187,6 +187,7 @@
   /* ---------- Year sections ---------- */
   section.year{
     padding:64px 0 24px;
+    scroll-margin-top:92px;
   }
   .year-head{
     display:flex;
@@ -1035,6 +1036,16 @@ lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
 const fill = document.getElementById("fill");
 const navLinks = [...document.querySelectorAll("#yearNav a")];
 const sections = [...document.querySelectorAll("section.year")];
+
+navLinks.forEach(link => {
+  link.addEventListener("click", event => {
+    const target = document.querySelector(link.getAttribute("href"));
+    if (!target) return;
+    event.preventDefault();
+    target.scrollIntoView({behavior:"smooth", block:"start"});
+    history.pushState(null, "", link.getAttribute("href"));
+  });
+});
 
 function onScroll(){
   const doc = document.documentElement;
