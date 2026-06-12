@@ -16,7 +16,7 @@
       <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#3d0f16" flood-opacity="0.22"/>
     </filter>
     <clipPath id="photoClip">
-      <rect x="24" y="24" width="282" height="260" rx="16"/>
+      <rect x="0" y="0" width="170" height="150" rx="12"/>
     </clipPath>
   </defs>
 
@@ -28,10 +28,22 @@
   <g transform="translate(710 126) rotate(-7) scale(.88)" filter="url(#softShadow)">
     <rect x="0" y="0" width="330" height="410" rx="24" fill="#fffdfb"/>
     <rect x="24" y="24" width="282" height="260" rx="16" fill="#edd3cc"/>
-    <image href="2024-10-31-a.jpg" x="24" y="24" width="282" height="260" preserveAspectRatio="xMidYMid slice" clip-path="url(#photoClip)"/>
-    <rect x="24" y="24" width="282" height="260" rx="16" fill="#3d0f16" opacity="0.08"/>
-    <rect x="42" y="42" width="96" height="28" rx="14" fill="#fffdfb" opacity="0.82"/>
-    <text x="58" y="62" fill="#c8102e" font-family="Courier New, monospace" font-size="14" font-weight="700" letter-spacing="1">PHOTO</text>
+    <g transform="translate(48 48)">
+      <rect x="0" y="0" width="100" height="92" rx="18" fill="#c8102e" opacity="0.9"/>
+      <rect x="118" y="0" width="100" height="92" rx="18" fill="#3d0f16" opacity="0.86"/>
+      <rect x="0" y="112" width="100" height="92" rx="18" fill="#a87c3f" opacity="0.82"/>
+      <rect x="118" y="112" width="100" height="92" rx="18" fill="#fff7f3" stroke="#c8102e" stroke-width="5"/>
+      <circle cx="50" cy="46" r="22" fill="#fffdfb" opacity="0.85"/>
+      <circle cx="168" cy="46" r="22" fill="#fffdfb" opacity="0.85"/>
+      <circle cx="50" cy="158" r="22" fill="#fffdfb" opacity="0.85"/>
+      <circle cx="168" cy="158" r="22" fill="#c8102e" opacity="0.85"/>
+    </g>
+    <g transform="translate(124 150) rotate(8)">
+      <rect x="-12" y="-12" width="194" height="194" rx="18" fill="#fffdfb"/>
+      <image href="2024-10-31-a.jpg" x="0" y="0" width="170" height="150" preserveAspectRatio="xMidYMid slice" clip-path="url(#photoClip)"/>
+      <rect x="0" y="0" width="170" height="150" rx="12" fill="#3d0f16" opacity="0.05"/>
+      <rect x="22" y="164" width="126" height="10" rx="5" fill="#c8102e" opacity="0.2"/>
+    </g>
     <rect x="42" y="318" width="185" height="16" rx="8" fill="#c8102e" opacity="0.22"/>
     <rect x="42" y="350" width="240" height="12" rx="6" fill="#3d0f16" opacity="0.16"/>
   </g>
