@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Lipstick Ladies share card</title>
+  <desc id="desc">Illustrated poster for the Lipstick Ladies photo timeline.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7f3"/>
+      <stop offset="0.52" stop-color="#f7e2dc"/>
+      <stop offset="1" stop-color="#eec7bf"/>
+    </linearGradient>
+    <linearGradient id="lipstick" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ef3150"/>
+      <stop offset="0.55" stop-color="#c8102e"/>
+      <stop offset="1" stop-color="#7b0a1c"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#3d0f16" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#paper)"/>
+  <circle cx="100" cy="95" r="130" fill="#fffdfb" opacity="0.5"/>
+  <circle cx="1090" cy="535" r="170" fill="#c8102e" opacity="0.08"/>
+  <path d="M0 520 C220 452 335 585 520 525 C700 468 805 455 980 520 C1088 560 1150 553 1200 520 L1200 630 L0 630 Z" fill="#3d0f16" opacity="0.07"/>
+
+  <g transform="translate(680 98) rotate(-8)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="330" height="410" rx="24" fill="#fffdfb"/>
+    <rect x="24" y="24" width="282" height="260" rx="16" fill="#edd3cc"/>
+    <g transform="translate(48 48)">
+      <rect x="0" y="0" width="100" height="92" rx="18" fill="#c8102e" opacity="0.9"/>
+      <rect x="118" y="0" width="100" height="92" rx="18" fill="#3d0f16" opacity="0.86"/>
+      <rect x="0" y="112" width="100" height="92" rx="18" fill="#a87c3f" opacity="0.82"/>
+      <rect x="118" y="112" width="100" height="92" rx="18" fill="#fff7f3" stroke="#c8102e" stroke-width="5"/>
+      <circle cx="50" cy="46" r="22" fill="#fffdfb" opacity="0.85"/>
+      <circle cx="168" cy="46" r="22" fill="#fffdfb" opacity="0.85"/>
+      <circle cx="50" cy="158" r="22" fill="#fffdfb" opacity="0.85"/>
+      <circle cx="168" cy="158" r="22" fill="#c8102e" opacity="0.85"/>
+    </g>
+    <rect x="42" y="318" width="185" height="16" rx="8" fill="#c8102e" opacity="0.22"/>
+    <rect x="42" y="350" width="240" height="12" rx="6" fill="#3d0f16" opacity="0.16"/>
+  </g>
+
+  <g transform="translate(128 142)">
+    <text x="0" y="0" fill="#c8102e" font-family="Courier New, monospace" font-size="24" font-weight="700" letter-spacing="5">EST. 2020</text>
+    <text x="0" y="112" fill="#3d0f16" font-family="Georgia, serif" font-size="102" font-weight="700" letter-spacing="-4">Lipstick</text>
+    <text x="0" y="214" fill="#c8102e" font-family="Georgia, serif" font-size="104" font-style="italic" letter-spacing="-4">Ladies</text>
+    <text x="4" y="282" fill="#3d0f16" font-family="Arial, sans-serif" font-size="28" opacity="0.72">A weekly-call photo timeline</text>
+  </g>
+
+  <g transform="translate(128 500)">
+    <rect x="0" y="0" width="322" height="54" rx="27" fill="#fffdfb" opacity="0.78"/>
+    <circle cx="38" cy="27" r="18" fill="url(#lipstick)"/>
+    <text x="70" y="36" fill="#3d0f16" font-family="Courier New, monospace" font-size="22" font-weight="700" letter-spacing="2">ALLISON · CAMILLE · CORINNE</text>
+  </g>
+
+  <g transform="translate(905 76) rotate(17)">
+    <rect x="0" y="52" width="72" height="170" rx="18" fill="#3d0f16"/>
+    <rect x="12" y="0" width="48" height="68" rx="12" fill="url(#lipstick)"/>
+    <rect x="10" y="62" width="52" height="28" rx="6" fill="#a87c3f"/>
+  </g>
+
+  <g transform="translate(882 430) rotate(-10)" fill="#c8102e" opacity="0.92">
+    <path d="M0 38 C28 -8 66 2 82 28 C98 2 136 -8 164 38 C124 62 40 62 0 38 Z"/>
+    <path d="M12 78 C54 120 110 120 152 78 C104 98 60 98 12 78 Z"/>
+  </g>
+</svg>
